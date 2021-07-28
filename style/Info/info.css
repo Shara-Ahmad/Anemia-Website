@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(216, 80, 107);
+}
+.box{
+    text-align: left;
+    width:570px;
+    background-color: coral;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 0px;
+    border-color: 5px cadetblue ;
+}
+h1{
+    color: white;
+}
+p{
+    font-size: 20px;
+}
+p span{
+    color:rgb(200, 219, 146);
+}
