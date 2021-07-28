@@ -1,3 +1,197 @@
-body{
-    color:rgb(134, 12, 22);
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: #111;
+
+}
+
+
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(style/2.jpg);
+    background-size: cover;
+    
+
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+
+}
+
+.banner .content h2 {
+    font-size: 5em;
+    color: #ff0157;
+
+}
+.banner .content p{
+    font-size: 1em;
+    color: black;
+    
+}
+
+  .btn{
+      font-size: 1em;
+      color: #fff;
+      background: brown;
+      display: inline-block;
+      padding: 10px 30px;
+      margin-top: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      transition: 0.5s;
+      text-align: center;
+     
+    }
+    .btn:hover{
+        letter-spacing: 6px;
+    }
+    nav{
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 100px;
+        position: fixed;
+        z-index: 1;
+        
+        font-family: 'Mate SC', serif;
+    }
+    nav .logo{
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+    }
+    nav .logo p{
+        float: left;
+        color:seashell;
+        text-transform: uppercase;
+    }
+    nav ul{
+        float: right;
+
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+nav ul li a:hover{
+    color: green;
+}
+nav ul li .active{
+    color: yellow;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.row .col50{
+    position: relative;
+    width: 48%;
+
+}
+.titleText{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+
+}
+.titleText span{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+.row .col50 .imgBx  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.row .col50 .imgBx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+
+}
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.8)
+}
+.menu .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.chat_icon{
+    position: fixed;
+    right: 30px;
+    bottom:0;
+    font-size: 80px;
+    color: rgba(255, 0, 0, 0.815);
+    cursor: pointer;
+    z-index: 1000;
+}
+.medical{
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    font-size: 80px;
+    color: black;
+    cursor: pointer;
+    z-index: 1000;
 }
