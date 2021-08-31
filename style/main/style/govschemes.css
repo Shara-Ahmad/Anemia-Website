@@ -44,17 +44,3 @@ padding: 0px 32px;
 nav ul li a:hover{
 color: #111;
 }
-body{
-  background-color: rgb(240, 206, 213);
-}
-
-  
-h1{
-    color: rgb(204, 119, 119);
-}
-p{
-    font-size: 20px;
-}
-p span{
-    color:rgb(200, 219, 146);
-}
