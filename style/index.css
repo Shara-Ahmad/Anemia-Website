@@ -22,7 +22,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(style/2.jpg);
+    background: url(bg.jpg);
     background-size: cover;
     
 
@@ -35,7 +35,7 @@ p{
 
 .banner .content h2 {
     font-size: 5em;
-    color: #ff0157;
+    color: #db3131;
 
 }
 .banner .content p{
@@ -44,10 +44,11 @@ p{
     
 }
 
+
   .btn{
       font-size: 1em;
       color: #fff;
-      background: brown;
+      background: #db3131;
       display: inline-block;
       padding: 10px 30px;
       margin-top: 20px;
@@ -90,18 +91,16 @@ p{
         list-style: none;
     }
 nav ul li a{
-    color: black;
+    color: #db3131;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
     padding: 0px 32px;
 }
 nav ul li a:hover{
-    color: green;
+    color: #111;
 }
-nav ul li .active{
-    color: yellow;
-}
+
 section{
     padding: 100px;
 }
@@ -124,7 +123,7 @@ section{
 
 }
 .titleText span{
-    color: #ff0157;
+    color: #bb1717;
     font-weight: 700;
     font-size: 1.5em;
 
@@ -177,15 +176,18 @@ section{
     height: 100%;
     object-fit: cover;
 }
+
+
 .chat_icon{
     position: fixed;
     right: 30px;
-    bottom:0;
-    font-size: 80px;
+    bottom:20px;
+    font-size: 40px;
     color: rgba(255, 0, 0, 0.815);
     cursor: pointer;
     z-index: 1000;
 }
+
 .medical{
     position: fixed;
     left: 30px;
