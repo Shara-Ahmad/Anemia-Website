@@ -22,7 +22,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(style/main/Firstpage.png);
+    background: url(3.jpg);
     background-size: cover;
     
 
@@ -182,10 +182,11 @@ section{
     position: fixed;
     right: 30px;
     bottom:20px;
-    font-size: 40px;
-    color: rgba(255, 0, 0, 0.815);
+    font-size: 30px;
+    color: rgba(187, 55, 55, 0.815);
     cursor: pointer;
     z-index: 1000;
+    text-decoration: none;
 }
 
 .medical{
@@ -193,7 +194,8 @@ section{
     left: 30px;
     top: 30px;
     font-size: 80px;
-    color: black;
+    color: rgb(22, 25, 29);
     cursor: pointer;
     z-index: 1000;
+    
 }

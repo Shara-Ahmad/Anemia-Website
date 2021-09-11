@@ -38,7 +38,7 @@ nav ul li a{
 color: #db3131;
 text-decoration: none;
 font-size: 18px;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 padding: 0px 32px;
 }
 nav ul li a:hover{
@@ -46,6 +46,11 @@ color: #111;
 }
 h1{
     position: relative;
-    top: 50%;
-    left:33%;
+    top: 70px;
+    left:44%;
+}
+.col-lg-12{
+    position:relative;
+    top: 80px;
+   
 }
