@@ -61,10 +61,11 @@ color: #111;
 h1{
     position: relative;
     top:120px;
-    left:40%;
+    left: 200px;
     font-size: 50px;
     color:#bb1717;
     font-weight: 500;
+    
 }
 h1:hover{
     text-decoration: underline;
@@ -94,4 +95,67 @@ img{
   }
   .made-with-love a:hover {
     text-decoration: underline;
+  }
+  img{
+    margin-top: 200px;
+    /* width: 1000px; */
+    margin-left: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:#bb1717;
+    font-weight: 500;
+}
+h1:hover{
+    text-decoration: underline;
+ }
+img{
+  width:540px;
+  height:450px;
+  transition: transform .2s;
+  border-radius: 8px;
+  border: 1px solid rgb(155, 11, 11);
+  border-radius: 25px;
+  padding: 8px;
+ 
+}
+img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.row {
+    display: flex;
+   
+  }
+  
+ 
+  .column {
+    flex: 55%;
+    padding: 5px;
+   
+  }
+  .row1 {
+    display: flex;
+  }
+  
+  
+  .column1 {
+    flex: 55%;
+    padding: 5px;
+  }
+  .row2 {
+    display: flex;
+  }
+  
+  
+  .column2 {
+    flex: 55%;
+    padding: 5px;
+  }
+  figcaption {
+    
+    color: black;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
   }
