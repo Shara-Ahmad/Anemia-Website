@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui;
+    scroll-behavior: smooth;
+    /* background-color: rgb(207, 183, 173); */
+    background-color: rgb(207, 183, 173);
+}
+.original{
+    background-color: aqua;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+    
+    font-family: 'Mate SC', serif;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+nav .logo p{
+    float: left;
+    color:seashell;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+color: #db3131;
+text-decoration: none;
+font-size: 18px;
+text-transform: uppercase;
+padding: 0px 32px;
+}
+nav ul li a:hover{
+color: #111;
+}
+.medical{
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    font-size: 80px;
+    color: rgb(22, 25, 29);
+    cursor: pointer;
+    z-index: 1000;
+}
+h1{
+    position: relative;
+    top:120px;
+    left:40%;
+    font-size: 50px;
+    color:#bb1717;
+    font-weight: 500;
+}
+h1:hover{
+    text-decoration: underline;
+ }
+img{
+   width:550px;
+}
+.made-with-love {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 15px;
+    font-family: arial;
+    color: #fff;
+  }
+  .made-with-love i {
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+  .made-with-love a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .made-with-love a:hover {
+    text-decoration: underline;
+  }
