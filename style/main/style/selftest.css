@@ -79,7 +79,7 @@ h1:hover{
     text-align: center;
     font-size: 15px;
     font-family: arial;
-    color: #fff;
+    color: rgb(48, 172, 10);
   }
   .made-with-love i {
     font-style: normal;
@@ -89,7 +89,7 @@ h1:hover{
     top: 2px;
   }
   .made-with-love a {
-    color: #fff;
+    color: rgb(8, 211, 116);
     text-decoration: none;
   }
   .made-with-love a:hover {

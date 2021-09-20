@@ -114,7 +114,7 @@ img:hover {
     text-align: center;
     font-size: 15px;
     font-family: arial;
-    color: #fff;
+    color:firebrick;
   }
   .made-with-love i {
     font-style: normal;
@@ -124,7 +124,7 @@ img:hover {
     top: 2px;
   }
   .made-with-love a {
-    color: #fff;
+   
     text-decoration: none;
   }
   .made-with-love a:hover {
