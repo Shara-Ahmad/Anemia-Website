@@ -1,66 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
-        function add(){
-        var a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,i=0,j=0,k=0;
-        var a1=0,a2=0,a3=0,a4=0,a5=0,a6=0;
-        a=Number(document.getElementById("first").value);
-        a3=a3+a;
-        a4=a4+a;
-        b=Number(document.getElementById("second").value);
-        a2=a2+b;
-        a3=a3+b;
-        c=Number(document.getElementById("third").value);
-        a4=a4+c;
-        d=Number(document.getElementById("fourth").value);
-        a3=a3+d;                                      
-        a6=a6+d;
-        e=Number(document.getElementById("fifth").value);
-        a4=a4+e;
-        a5=a5+e;
-        a6=a6+e;
-        f=Number(document.getElementById("sixth").value);
-        a5=a5+f;
-        a6=a6+f;
-        g=Number(document.getElementById("seventh").value);
-        a1=a1+g;
-        a2=a2+g;
-        h=Number(document.getElementById("eigth").value);
-        a1=a1+h;
-        i=Number(document.getElementById("ninth").value);
-        a1=a1+i;
-        j=Number(document.getElementById("tenth").value);
-        a2=a2+j;
-        k=Number(document.getElementById("eleventh").value);
-        a5=a5+k;
-        arr=[a1,a2,a3,a4,a5,a6];
-        max=arr[0];
-        for(i=0;i<6;i++){
-            if(arr[i]>max){
-                max=arr[i];
-            }
-        }
-        if(a1==max){
-            document.getElementById("answer").value='0% chances';
-        }
-        else if(a2==max){
-            document.getElementById("answer").value='25% chances';
-        }
-        else if(a3==max){
-            document.getElementById("answer").value='50% chances';
-        }
-        else if(a4==max){
-            document.getElementById("answer").value='63% chances';
-        }
-        else if(a5==max){
-            document.getElementById("answer").value='72% chances';
-        }
-        else{
-        document.getElementById("answer").value='92% chances';
-        }
-        }
-        </script>
+   
         
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,149 +13,54 @@
 <body>
     
         <nav>
-            
-            <ul>
-                <li><a href="C:\Users\shrut\OneDrive\Anemia-Website\index.html">Home</a></li>
-                <li><a href="selftest.html">Self-Test</a></li>
-                <li><a href="nutrition.html">Nutrition</a></li>
-                <li><a href="govschemes.html">Government Schemes</a></li>
-                <li><a href="contactspecialist.html">Contact Specialist</a></li>
-                <li><a href="C:\Users\shrut\OneDrive\Anemia-Website\style\Info\Info.html">info</a></li>
-            </ul>
-        </nav>
         
+          <ul>
+            <li><a href="C:\Users\shrut\OneDrive\Anemia-Website\index.html">Home</a></li>
+            <li><a href="selftest.html">Self-Test</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="govschemes.html">Government Schemes</a></li>
+            <li><a href="contactspecialist.html">Contact Specialist</a></li>
+            <li><a href="C:\Users\shrut\OneDrive\Anemia-Website\style\Info\Info.html">info</a></li>
+          </ul>
+        </nav>
+       
       <h1>Self Test</h1>
-       <div class="col-lg-12">
-        <div id="text" class="container-fluid">
-    <h2>To check the probability of having Anemia just solve a small quiz given below</h2>
-    
-   1)Do you often experience fatigue and weakness?(Fatigue has many causes besides anemia,so don't assume that you're tired then you must be anemic.Some people learn that their haemoglobin is low,which indicates anemia)
-    <select name="first" id="first" required style="color: black">
-      <option value="0">Never</option>
-      <option value="1">Sometimes</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    
-    <br>2)Has the colour of your skin turned pale or yellowish ?
-    <select name="second" id="second" required style="color: black">
-      <option value="0">No</option>
-      <option value="1">Slightly</option>
-      <option value="2">Yes</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    
-    <br>3)Do you have irregular heartbeats ?
-    <select name="third" id="third" required style="color: black">
-      <option value="0">No</option>
-      <option value="1">Can't tell</option>
-      <option value="2">Yes</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    
-    <br>4)Do you often experience shortness or difficulty in breathing ?
-    <select name="fourth" id="fourth" required style="color: black">
-      <option value="0">Never</option>
-      <option value="1">Sometimes</option>
-      <option value="2">Frequently</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    
-    <br>5)Do you feel dizzy or light headed ?
-    <select name="fifth" id="fifth" required style="color: black">
-      <option value="0">Never</option>
-      <option value="1">Sometimes</option>
-      <option value="2">Frequently</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    
-    <br>6)Do you experience chest pain ?
-    <select name="sixth" id="sixth" required style="color: black">
-      <option value="0">Never</option>
-      <option value="1">Sometimes</option>
-      <option value="2">Frequently</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    
-    <br>7)Are your hands and feet cold ?
-    <select name="seventh" id="seventh" required style="color: black">
-      <option value="0">Never</option>
-      <option value="1">Sometimes</option>
-      <option value="2">Frequently</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    
-    <br>8)Do you experience headaches ?
-    <select name="seventh" id="seventh" required style="color: black">
-      <option value="0">Never</option>
-      <option value="1">Sometimes</option>
-      <option value="2">Frequently</option>
-      <option value="3">Usually</option>
-      <option value="4">Usually</option>
-      <option value="5">Usually</option>
-      <option value="6">Usually</option>
-      <option value="7">Usually</option>
-      <option value="8">Usually</option>
-      <option value="9">Usually</option>
-    </select><br>
-    <h4>Note*:The results that you will receive are strictly based on the answers selected by you and results are not 100% accurate . If you receive results that suggest you have Anemia , we would request you to not panic and consult a doctor before starting any medications .</h4>
-    
-   
-    
-   
-    
-    <br><button style="position: absolute; left: 20px; width: 100px" onclick="add()">Submit</button><br>
-    <br>From your self-test, the following is the probability of having Anemia.(If the percentage is high then consult to doctor given on our website and follow the diet chart)
-    <input id="answer" style="color: black">
-      </div>
-    
-      
-    </div>
+       
     <div class="medical">
       <i class="fas fa-diagnoses"></i>
 
   </div>
-  
+ 
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Answer</label>
+        </li>
+
+      </ul>
+    </div>
+
+    <button id="submit">Submit</button>
+  </div>
+ 
+  <script src="C:\Users\shrut\OneDrive\Anemia-Website\style\script.js"></script>
 </body>
 </html>

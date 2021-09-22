@@ -14,13 +14,13 @@ function getTime() {
         minutes = "0" + minutes;
     }
 
-    let time = date+"/"+month+"/"+year+","+hours + ":" + minutes;
+    let time = date+"/"+"09" +"/"+year+","+hours + ":" + minutes;
     return time;
 }
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Hello,How we can help You?"
+    let firstMessage = "Hello,how can I help you?"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -45,7 +45,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love you!";
+        userText = "Hello";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';

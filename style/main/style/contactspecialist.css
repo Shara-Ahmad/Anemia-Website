@@ -5,8 +5,7 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-    /* background-color: rgb(216, 204, 199); */
-    background-color: rgb(207, 183, 173);
+    background-color: rgb(235, 217, 210);
 }
 .original{
     background-color: aqua;

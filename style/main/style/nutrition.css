@@ -5,9 +5,7 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-    /* background-color: rgb(207, 183, 173); */
-    /* background-color: rgb(216, 204, 199); */
-    background-color: rgb(207, 183, 173);
+    background-color: rgb(235, 217, 210);
 }
 
 nav{
@@ -58,6 +56,13 @@ color: #111;
     z-index: 1000;
     
 }
+/* .banner
+{
+    background: url(new.jpg);
+    background-size: cover;
+    
+
+} */
 img{
     margin-top: 200px;
     /* width: 1000px; */
@@ -130,3 +135,4 @@ img:hover {
   .made-with-love a:hover {
     text-decoration: underline;
   }
+  

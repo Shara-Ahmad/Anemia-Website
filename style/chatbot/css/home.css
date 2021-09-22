@@ -53,6 +53,7 @@ color: #111;
     z-index: 1000;
     
 }
+
 body{
     background-color: rgb(207, 183, 173);
 }
@@ -61,11 +62,12 @@ body{
 
 h1{
     color: rgb(207, 65, 65);
-   padding-left: 200px;
-    font-size: 50px;
+   padding-left: 430px;
+    font-size: 70px;
     font-weight: 500;
-  top:100px;
+  top:250px;
   position: relative;
+  
 }
 h1:hover{
     text-decoration: underline;

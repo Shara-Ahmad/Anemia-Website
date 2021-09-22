@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-  
-   
-}
+    background-color: rgb(235, 217, 210);
+   }
 
 
 nav{
@@ -48,9 +47,12 @@ padding: 0px 32px;
 nav ul li a:hover{
 color: #111;
 }
+body{  
+  display: flex;
+}
 h1{
     position: relative;
-    top: 70px;
+    top: 120px;
     left:40%;
     font-weight: 500;
     font-size: 50px;
@@ -75,6 +77,55 @@ h1:hover{
     z-index: 1000;
     
 }
+
+.quiz-container{
+    top:300px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    left:16%;
+  }
+  .quiz-header{
+    padding: 4rem;
+  }
+  h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+   
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  ul li label{
+    cursor: pointer;
+  }
+  button{
+    background-color: #03cae4;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+  }
+  button:hover{
+    background-color: #60a1aa;
+  }
+  button:focus{
+    outline: none;
+    background-color: rgb(192, 84, 84);
+  }
 .made-with-love {
     margin-top: 40px;
     padding: 10px;
