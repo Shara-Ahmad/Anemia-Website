@@ -5,7 +5,8 @@ body{
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-    background-color: rgb(235, 217, 210);
+    background-color: #f8b8ce;
+    
    }
 
 
@@ -96,6 +97,7 @@ h1:hover{
     text-align: center;
     margin: 0;
   }
+  
    
   ul{
     list-style-type: none;

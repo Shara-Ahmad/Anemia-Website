@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-    background-color: rgb(235, 217, 210);
+   
 }
 
 nav{
@@ -56,13 +56,13 @@ color: #111;
     z-index: 1000;
     
 }
-/* .banner
+ .banner
 {
-    background: url(new.jpg);
+    background: url(/style/Info/new2.png);
     background-size: cover;
     
 
-} */
+} 
 img{
     margin-top: 200px;
     /* width: 1000px; */
