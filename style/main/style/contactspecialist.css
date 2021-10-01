@@ -5,8 +5,8 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-    /* background: url("new.jpg");
-    background-size: cover; */
+     background: url("/style/Info/new2.png");
+    
 }
 
 nav{
@@ -47,14 +47,14 @@ padding: 0px 32px;
 nav ul li a:hover{
 color: #111;
 }
-.banner
+/*.banner
 {
    
-    background: url(new.jpg);
+    background: url(/style/Info/new2.png);
    
     
 
-}
+}*/
 .box{
   position: relative;
   top:120px;
@@ -112,7 +112,7 @@ td{
   text-align: center;
   font-size: 15px;
   font-family: arial;
-  color: #fff;
+  color: rgb(41, 163, 219);
 }
 .made-with-love i {
   font-style: normal;
@@ -122,7 +122,7 @@ td{
   top: 2px;
 }
 .made-with-love a {
-  color: #fff;
+  color: rgb(197, 47, 47);
   text-decoration: none;
 }
 .made-with-love a:hover {

@@ -37,7 +37,7 @@ nav ul{
 }
 .banner{
   
-  background: url(C:\xampp3\htdocs\Anemia-Website\style\main\style\new.jpg);
+  background: url(/style/Info/new2.png);
   background-size: cover;
 }
 nav ul li{
@@ -85,7 +85,7 @@ img{
     text-align: center;
     font-size: 15px;
     font-family: arial;
-    color: #fff;
+    color: rgb(60, 42, 224);
   }
   .made-with-love i {
     font-style: normal;
@@ -95,7 +95,7 @@ img{
     top: 2px;
   }
   .made-with-love a {
-    color: #fff;
+    color: rgb(214, 63, 63);
     text-decoration: none;
   }
   .made-with-love a:hover {

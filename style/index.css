@@ -209,16 +209,21 @@ p{
     z-index: 1000;
     
 }
-/* .arrow{
+ .arrow{
   
-    right: 30px;
-    bottom:80px;
+    position: fixed;
+    right: 100px;
+    top: 250px;
     font-size: 60px;
-    color: rgba(20, 19, 19, 0.815);
+    color: rgba(221, 30, 30, 0.815);
     cursor: pointer;
     z-index: 1000;
     
-} */
+} 
+.arrow:hover{
+    background: rgb(236, 175, 175);
+    border-radius: 200px;
+}
 .made-with-love {
     margin-top: 40px;
     padding: 10px;
