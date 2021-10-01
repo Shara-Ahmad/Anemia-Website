@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -208,6 +209,16 @@ p{
     z-index: 1000;
     
 }
+/* .arrow{
+  
+    right: 30px;
+    bottom:80px;
+    font-size: 60px;
+    color: rgba(20, 19, 19, 0.815);
+    cursor: pointer;
+    z-index: 1000;
+    
+} */
 .made-with-love {
     margin-top: 40px;
     padding: 10px;

@@ -5,12 +5,10 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-   /* background-color: rgb(235, 217, 210);*/
-   background-image: url(/style/Info/new2.png);
+    /* background: url("new.jpg");
+    background-size: cover; */
 }
-.original{
-    background-color: aqua;
-}
+
 nav{
     width: 100%;
     height: 75px;
@@ -48,6 +46,14 @@ padding: 0px 32px;
 }
 nav ul li a:hover{
 color: #111;
+}
+.banner
+{
+   
+    background: url(new.jpg);
+   
+    
+
 }
 .box{
   position: relative;
@@ -99,15 +105,6 @@ td{
 /* demo styles */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-body{
-  /* background: -webkit-linear-gradient(left, #c42525, #25b7c4); */
-  /* background: linear-gradient(to right, #ff9eab, #eb687e); */
- 
-}
-
-
-
-/* follow me template */
 .made-with-love {
   margin-top: 40px;
   padding: 10px;
@@ -132,18 +129,6 @@ body{
   text-decoration: underline;
 }
 
-
-/* for custom scrollbar for webkit browser*/
-
-::-webkit-scrollbar {
-    width: 6px;
-} 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-} 
-::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-}
 
 .medical{
   position: fixed;
