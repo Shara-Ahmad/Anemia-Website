@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-  
+  /* background-color: bisque; */
 }
 
 nav{
