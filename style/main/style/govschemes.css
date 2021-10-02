@@ -37,7 +37,7 @@ nav ul{
 }
 .banner{
   
-  background: url(/style/Info/new2.png);
+  background: url(new.jpg);
   background-size: cover;
 }
 nav ul li{
@@ -85,7 +85,7 @@ img{
     text-align: center;
     font-size: 15px;
     font-family: arial;
-    color: rgb(60, 42, 224);
+    /* color: rgb(224, 139, 42); */
   }
   .made-with-love i {
     font-style: normal;
@@ -95,7 +95,7 @@ img{
     top: 2px;
   }
   .made-with-love a {
-    color: rgb(214, 63, 63);
+    /* color: rgb(197, 194, 35); */
     text-decoration: none;
   }
   .made-with-love a:hover {
@@ -164,3 +164,26 @@ img:hover {
     padding: 2px;
     text-align: center;
   }
+  .arrow{
+  
+    position: fixed;
+    right: 50px;
+    top: 300px;
+    font-size: 65px;
+    color: rgba(221, 30, 30, 0.815);
+    cursor: pointer;
+    z-index: 1000;
+    
+} 
+.arrow:hover{
+    background: rgb(236, 175, 175);
+    border-radius: 10px;
+}
+.arrow a{
+  color:#db2c2c;
+  text-decoration:none;
+  font-size: 20px;
+}
+.arrow a:hover{
+  text-decoration: underline;
+}

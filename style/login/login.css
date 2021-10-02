@@ -15,7 +15,7 @@ html,body{
   /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
 }
 ::selection{
-  background: #d87ccc;
+  background: #d85050;
   color: #fff;
 }
 .wrapper{
@@ -32,7 +32,7 @@ html,body{
   color: #fff;
   user-select: none;
   border-radius: 15px 15px 0 0;
-  background: linear-gradient(-135deg, #c850c0, #99a5df);
+  background: linear-gradient(-135deg, #d85050, #99a5df);
 }
 .wrapper form{
   padding: 10px 30px 50px 30px;
@@ -55,7 +55,7 @@ html,body{
 }
 .wrapper form .field input:focus,
 form .field input:valid{
-  border-color: #d376bc;
+  border-color: #d85050;
 }
 .wrapper form .field label{
   position: absolute;
@@ -110,7 +110,7 @@ form .field input[type="submit"]{
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #d85050, #4158d0);
   transition: all 0.3s ease;
 }
 form .field input[type="submit"]:active{

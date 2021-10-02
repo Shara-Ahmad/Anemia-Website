@@ -60,7 +60,7 @@ color: #111;
 .banner
 {
    
-    background: url(/style/Info/new2.png);
+    background: url(new.jpg);
     background-size: cover;
     
 
@@ -114,7 +114,7 @@ h4 span{
     text-align: center;
     font-size: 15px;
     font-family: arial;
-    color: rgb(19, 125, 224);
+    color: rgb(15, 15, 15);
   }
   .made-with-love i {
     font-style: normal;
@@ -124,7 +124,7 @@ h4 span{
     top: 2px;
   }
   .made-with-love a {
-    color: rgb(52, 73, 87);
+    color: rgb(8, 8, 8);
     text-decoration: none;
   }
   .made-with-love a:hover {

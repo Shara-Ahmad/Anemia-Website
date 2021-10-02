@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-    background-color: #f8b8ce;
-    
-   }
-
+   /* background-color: aqua; */
+}
 
 nav{
     width: 100%;
@@ -17,7 +15,7 @@ nav{
     padding: 0px 100px;
     position: fixed;
     z-index: 1;
-    
+ 
     font-family: 'Mate SC', serif;
 }
 nav .logo{
@@ -48,9 +46,17 @@ padding: 0px 32px;
 nav ul li a:hover{
 color: #111;
 }
+
 body{  
   display: flex;
 }
+/* .banner
+{
+    background: url(new.jpg);
+    background-size: cover;
+    
+
+}  */
 h1{
     position: relative;
     top: 120px;
@@ -80,14 +86,14 @@ h1:hover{
 }
 
 .quiz-container{
-    top:300px;
+    top:150px;
     position: relative;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 600px;
     overflow: hidden;
-    left:16%;
+    left:500px;
   }
   .quiz-header{
     padding: 4rem;
@@ -128,6 +134,21 @@ h1:hover{
     outline: none;
     background-color: rgb(192, 84, 84);
   }
+  .arrow{
+  
+    position: fixed;
+    right: 50px;
+    top: 300px;
+    font-size: 65px;
+    color: rgba(221, 30, 30, 0.815);
+    cursor: pointer;
+    z-index: 1000;
+    
+} 
+.arrow:hover{
+    background: rgb(7, 7, 7);
+    border-radius: 150px;
+}
 .made-with-love {
     margin-top: 40px;
     padding: 10px;
@@ -135,17 +156,17 @@ h1:hover{
     text-align: center;
     font-size: 15px;
     font-family: arial;
-    color: rgb(48, 172, 10);
+    color: rgb(13, 14, 13);
   }
   .made-with-love i {
     font-style: normal;
-    color: #F50057;
+    color: #0c0c0c;
     font-size: 14px;
     position: relative;
     top: 2px;
   }
   .made-with-love a {
-    color: rgb(8, 211, 116);
+    color: rgb(14, 15, 15);
     text-decoration: none;
   }
   .made-with-love a:hover {

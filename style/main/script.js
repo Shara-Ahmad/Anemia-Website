@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "Do you often experience fatigue and weakness?(Fatigue has many causes besides anemia,so don't assume that you're tired then you must be anemic.Some people learn that their haemoglobin is low,which indicates anemia)",
+        question: "Do you have irregular heartbeats ?",
         a: "Never",
         b: "Sometimes",
         c: "Usually",
@@ -16,7 +16,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "Do you have irregular heartbeats ?",
+        question: "Do you often experience fatigue and weakness?(Fatigue has many causes besides anemia,so don't assume that you're tired then you must be anemic.Some people learn that their haemoglobin is low,which indicates anemia)",
         a: "No",
         b: "Can't Say",
         c: "Maybe",

@@ -5,8 +5,7 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-     background: url("/style/Info/new2.png");
-    
+  
 }
 
 nav{
@@ -47,14 +46,14 @@ padding: 0px 32px;
 nav ul li a:hover{
 color: #111;
 }
-/*.banner
+/* .banner
 {
    
-    background: url(/style/Info/new2.png);
-   
+    background: url(new.jpg);
+   background-size: cover;
     
 
-}*/
+} */
 .box{
   position: relative;
   top:120px;
@@ -100,8 +99,45 @@ td{
   color: rgb(5, 3, 3);
   border-bottom: solid 1px rgb(230, 218, 218); 
 }
+.arrow{
+  
+  position: fixed;
+  right: 50px;
+  top: 300px;
+  font-size: 65px;
+  color: rgba(221, 30, 30, 0.815);
+  cursor: pointer;
+  z-index: 1000;
+  
+} 
+.arrow:hover{
+  background: rgb(236, 175, 175);
+  border-radius: 150px;
+}
 
-
+.request_icon{
+  position: fixed;
+  left: 30px;
+  bottom:20px;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+  text-decoration: none;
+  background-color: #db3131;
+  width:270px;
+  height:60px;
+  text-align: center;
+  padding-top: 6px;
+}
+.request_icon a{
+  color:white;
+  text-decoration:none;
+}
+.request_icon a:hover{
+  text-decoration: underline;
+ 
+}
 /* demo styles */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
