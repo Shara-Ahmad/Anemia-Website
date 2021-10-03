@@ -58,7 +58,7 @@ color: #111;
 }
  .banner
 {
-    background: url(new.jpg);
+    background: url(/style/main/new2.png);
     background-size: cover;
     
 
@@ -118,14 +118,14 @@ img:hover {
     right: 50px;
     top: 300px;
     font-size: 65px;
-    color: rgba(221, 30, 30, 0.815);
+    color: rgba(231, 78, 78, 0.815);
     cursor: pointer;
     z-index: 1000;
     
 } 
 .arrow:hover{
     background: rgb(236, 175, 175);
-    border-radius: 150px;
+    border-radius: 10px;
 }
   
   .made-with-love {

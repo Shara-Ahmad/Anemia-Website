@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-   /* background-color: rgb(240, 229, 229); */
+  
 }
 
 nav{
@@ -49,14 +49,13 @@ color: #111;
 
 body{  
   display: flex;
+  background-image: url(/style/main/new2.png);
 }
 /* .banner
 {
-    background: url(new.jpg);
-    background-size: cover;
-    
-
-}  */
+  background-color: aqua;
+  
+}*/
 h1{
     position: relative;
     top: 120px;
@@ -86,14 +85,14 @@ h1:hover{
 }
 
 .quiz-container{
-    top:150px;
+    top:200px;
     position: relative;
-    background-color: rgb(221, 198, 198);
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    box-shadow: 0 0 10px 6px rgba(128, 219, 241, 0.925);
     width: 600px;
     overflow: hidden;
-    left:500px;
+    left: 160px;
   }
   .quiz-header{
     padding: 4rem;
@@ -140,14 +139,14 @@ h1:hover{
     right: 50px;
     top: 300px;
     font-size: 65px;
-    color: rgba(221, 30, 30, 0.815);
+    color: rgba(231, 78, 78, 0.815);
     cursor: pointer;
     z-index: 1000;
     
 } 
 .arrow:hover{
-    background: rgb(7, 7, 7);
-    border-radius: 150px;
+    background: rgb(236, 175, 175);
+    border-radius: 10px;
 }
 .made-with-love {
     margin-top: 40px;
@@ -172,3 +171,4 @@ h1:hover{
   .made-with-love a:hover {
     text-decoration: underline;
   }
+  

@@ -21,7 +21,7 @@ const quizData = [
         b: "Can't Say",
         c: "Maybe",
         d: "Yes",
-        correct: "d",
+        correct: "c",
     },
     {
         question: "Do you often experience shortness or difficulty in breathing ?",

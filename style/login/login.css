@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background-image: url(/style/Info/new2.png);
+  background-image: url(/style/main/new2.png);
 }
 html,body{
   display: grid;

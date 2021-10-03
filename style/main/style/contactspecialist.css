@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family:system-ui;
     scroll-behavior: smooth;
-  /* background-color: bisque; */
+   /*background-color: rgb(247, 199, 201);*/
 }
 
 nav{
@@ -46,14 +46,7 @@ padding: 0px 32px;
 nav ul li a:hover{
 color: #111;
 }
-/* .banner
-{
-   
-    background: url(new.jpg);
-   background-size: cover;
-    
 
-} */
 .box{
   position: relative;
   top:120px;
@@ -124,14 +117,14 @@ td{
   cursor: pointer;
   z-index: 1000;
   text-decoration: none;
-  background-color: #db3131;
+  background-color: #e05959;
   width:270px;
   height:60px;
   text-align: center;
   padding-top: 6px;
 }
 .request_icon a{
-  color:white;
+  color:rgb(235, 203, 203);
   text-decoration:none;
 }
 .request_icon a:hover{
@@ -176,3 +169,6 @@ td{
   z-index: 1000;
   
 }
+/*.banner{
+  background-image: url(/style/main/new2.png);
+}*/
