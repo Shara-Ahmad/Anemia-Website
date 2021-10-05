@@ -37,7 +37,7 @@ nav ul{
 }
 .banner{
   
-  background: url(/style/main/new2.png);
+  background: url(new2.png);
   background-size: cover;
 }
 nav ul li{
@@ -85,7 +85,7 @@ img{
     text-align: center;
     font-size: 15px;
     font-family: arial;
-    /* color: rgb(224, 139, 42); */
+    color: #db3131;
   }
   .made-with-love i {
     font-style: normal;
@@ -95,7 +95,7 @@ img{
     top: 2px;
   }
   .made-with-love a {
-    /* color: rgb(197, 194, 35); */
+    color: #db3131;
     text-decoration: none;
   }
   .made-with-love a:hover {

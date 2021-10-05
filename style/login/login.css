@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background-image: url(/style/main/new2.png);
+  background-image: url(new2.png);
 }
 html,body{
   display: grid;
@@ -32,7 +32,7 @@ html,body{
   color: #fff;
   user-select: none;
   border-radius: 15px 15px 0 0;
-  background: linear-gradient(-135deg, #d85050, #99a5df);
+  background: linear-gradient(-135deg, #be3d3d, #99a5df);
 }
 .wrapper form{
   padding: 10px 30px 50px 30px;
